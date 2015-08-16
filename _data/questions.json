@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "asker": "dvoted",
+            "question": "Will you ever post to my blog? Can you?",
+            "answer": "We can post to your blog. However, we will <b>never</b> post to your blog."
+        },
+        {
+            "asker": "tete-and-lili",
+            "question": "What information does the counter take from my account?",
+            "answer": "The only information we store is your username (Tumblr URL without \".tumblr.com\") and your follower count. <a target=\"_blank\" href=\"https://www.tumblr.com/docs/en/api/v2#user-methods\">More Info</a>."
+        },
+        {
+            "asker": "tete-and-lili",
+            "question": "Who can see my follower counter?",
+            "answer": "As of now, your counter is publicly available. There is no way to make your counter private."
+        },
+        {
+            "asker": "zaaxch",
+            "question": "Are we required to place the code on our blogs?",
+            "answer": "Nope! The code is for your own enjoyment."
+        }
+    ]
+}

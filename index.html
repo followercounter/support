@@ -2,3 +2,13 @@
 layout: default
 path: ./
 ---
+<div class="section faq">
+    <h1>Frequently Asked Questions</h1>
+    <div class="sep"></div>
+    {% for question in site.data.questions.questions %}
+    <div class="question_wrap mt">
+        <h2 class="question">{{ question.question }} [<a target="_blank" href="http://{{ question.asker }}.tumblr.com/">{{ question.asker }}</a>]</h2>
+        <div class="question_answer">{{ question.answer }}</div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,7 +1,7 @@
 # Site settings
 title: Follower Counter Support
 email: support@followercounter.co
-description: > # Support website for all your Follower Counter questions and issues.
+description: "Support website for all your Follower Counter questions and issues."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://support.followercounter.co" # the base hostname & protocol for your site
 github_username:  followercounter
