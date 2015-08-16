@@ -10,6 +10,7 @@
 
 $white-color: #FFFFFF;
 $black-color: #2D2D2D;
+$blue-color: #1D77EF;
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700,300");
 
@@ -63,14 +64,18 @@ a:hover {
 }
 
 .section.content {
-    background-color: #1D77EF;
+    background-color: $blue-color;
     padding: 20px;
 }
 
-.section.faq {
+.section.faq, .section.contact {
     background-color: #FFF;
     padding: 10px;
     @include border-radius(5px);
+}
+
+.section.contact a {
+    color: $blue-color;
 }
 
 .sep {

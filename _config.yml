@@ -8,3 +8,4 @@ github_username:  followercounter
 
 # Build settings
 markdown: kramdown
+permalink: pretty
