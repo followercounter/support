@@ -11,6 +11,7 @@
 $white-color: #FFFFFF;
 $black-color: #2D2D2D;
 $blue-color: #1D77EF;
+$red-color: #FF5E3A;
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700,300");
 
@@ -93,4 +94,14 @@ h2.question a {
 
 .question_wrap {
     margin-bottom: 40px;
+}
+
+.sm {
+    font-size: 14px;
+}
+
+.er {
+    color: $red-color;
+    font-style: italic;
+    font-weight: bold;
 }
